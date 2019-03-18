@@ -9,3 +9,6 @@ TARGET_LINK_LIBRARIES(AudioEncoder AudioSocket m)
 
 ADD_EXECUTABLE(AudioDecoder AudioDecoder_test.c)  
 TARGET_LINK_LIBRARIES(AudioDecoder AudioSocket m asound)
+
+ADD_EXECUTABLE(AudioDecoder_file AudioDecoder_file_test.c)  
+TARGET_LINK_LIBRARIES(AudioDecoder_file AudioSocket m)
